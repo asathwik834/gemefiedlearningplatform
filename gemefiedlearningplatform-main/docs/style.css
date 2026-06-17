@@ -1,0 +1,20 @@
+@page { size: A4; margin: 20mm 15mm; }
+body { font-family: 'Segoe UI', Tahoma, Arial, sans-serif; color: #1f2937; }
+h1,h2,h3 { color: #111827; }
+h1 { font-size: 28px; margin-bottom: 6px; }
+h2 { font-size: 22px; margin-top: 18px; }
+h3 { font-size: 18px; margin-top: 14px; }
+p, li { line-height: 1.45; }
+.cover {
+  margin-top: 80px; text-align: center;
+}
+.cover h1 { font-size: 36px; }
+.cover h2 { font-size: 20px; color: #374151; }
+.toc { margin-top: 30px; }
+.table { width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 12px; }
+.table th, .table td { border: 1px solid #e5e7eb; padding: 6px 8px; }
+.note { background: #fef3c7; border-left: 4px solid #f59e0b; padding: 8px 10px; margin: 10px 0; }
+.example { background: #ecfeff; border-left: 4px solid #06b6d4; padding: 8px 10px; margin: 10px 0; }
+.exercise { background: #eef2ff; border-left: 4px solid #6366f1; padding: 8px 10px; margin: 10px 0; }
+.summary { background: #f0fdf4; border-left: 4px solid #22c55e; padding: 8px 10px; margin: 14px 0; }
+hr { border: none; border-top: 1px solid #e5e7eb; margin: 20px 0; }
